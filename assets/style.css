@@ -77,10 +77,11 @@
   }
   
   .coverpic {
-    height: 800px;
+    height: 600px;
     width: 100%;
+    padding: 10px;
     margin-bottom: 25px;
-    background-image: url(/assets/76_pp.jpg);
+    background-image: url(./76_pp.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -90,15 +91,15 @@
     margin-right: 25px;
   }
   
-  .float-right {
-    justify-content: end;
+  .float-right img {
     float: right;
     margin-left: 25px;
   }
   
   .content {
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 75%;
     height: auto;
