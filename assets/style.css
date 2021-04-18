@@ -1,7 +1,7 @@
 :root {
     --background:#7c2a2a;
     --main-font: #ffffff;
-    --h-hover: rgb(139,0,139)
+    --h-hover: #0000ff;
   }
     
   
@@ -89,13 +89,13 @@
   .float-left {
     float: left;
     margin-right: 25px;
+    display: inline;
   }
   
-  .float-right img {
+  .float-right {
     float: right;
-    margin-left: 25px;
   }
-  
+
   .content {
     display: inline-flex;
     flex-direction: row;
@@ -123,7 +123,7 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     background-color: var(--background);
   }
-  
+
   .links div {
     margin-left: 20px;
     margin-bottom: auto;
@@ -146,10 +146,14 @@
     display: inline-flexbox;
     margin: 10px auto;
     max-width: 150px;
+    height: 150px;
   }
+
   
+
   .content div {
     display: inline-flex;
+    align-content: space-around;
     margin-left: 20px;
     padding-left: 10x;
     height: 300px;
@@ -162,15 +166,58 @@
     margin-left: 20px;
 
   }
-  .content div img {
+  .content ul img {
     max-height: 200px;
   }
   
   .content div h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 32px;
+  }
+
+  .about-me a {
+    font-size: 11px;
   }
   
+  .about-me a:hover {
+    font-size: 14px;
+    color: #0000ff;
+  }
+  
+
+  
+  .project-gallery {
+    height: 300px;
+    padding: 10px;
+  }
+
+  .projects-gallery a {
+    font-size: 11px;
+
+  }
+
+  .projects-gallery a:hover {
+    font-size: 14px;
+    color: blue;
+  }
+
+  .project-gallery img {
+    display:inline-flex;
+    margin: 5px;
+    height: 300px;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+
+  .work-history a {
+    font-size: 11px;
+  }
+
+  .work-history a:hover {
+    font-size: 14px;
+    color: blue;
+  }
   .footer {
     padding: 30px;
     clear: both;
