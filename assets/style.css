@@ -202,10 +202,10 @@
   }
 
   .project-gallery img {
-    display:inline-flex;
+    display: inline-flexbox;
     margin: 5px;
     height: 300px;
-    width: 100%;
+    width: 275px;
     margin-left: 10px;
   }
 
