@@ -154,6 +154,7 @@
     margin: 10px auto;
     max-width: 100px;
     height: 100px;
+    justify-items: center;
   }
   
   .content div {
